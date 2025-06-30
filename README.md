@@ -1,1 +1,1 @@
-# socialby
+# **Socialby** is a **location-based social networking app** that allows users to connect in two distinct modes: **Friend** and **Network**. Users can discover people around them based on **real-time proximity**, **mutual intent**, and **check-in zones**. The **dual-profile system** gives full control over **how** and **why** they connect — whether it's **making friends at the beach** or **networking at a professional event**.
