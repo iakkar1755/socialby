@@ -8,31 +8,38 @@
     <meta name="description" content="A playful location-based dual-profile social networking app for both personal and professional connections." />
     <script type="module" crossorigin src="/socialby/assets/index-782d3579.js"></script>
     <link rel="stylesheet" href="/socialby/assets/index-9c8243bc.css">
-
     <style>
-      .badge-container {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        z-index: 999;
-      }
-      .badge {
-        background-color: red;
+      /* Örnek badge stili (eğer başka rozetler de eklenecekse) */
+      .custom-badge {
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        background-color: #ff5722;
         color: white;
-        border-radius: 50%;
-        padding: 6px 10px;
-        font-size: 14px;
-        font-weight: bold;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 13px;
+        z-index: 9999;
+        font-family: Arial, sans-serif;
       }
     </style>
   </head>
   <body>
     <div id="root"></div>
 
-    <!-- Badge örneği -->
-    <div class="badge-container">
-      <div class="badge">5</div>
-    </div>
+    <!-- 🔥 Bolt Hackathon Resmi Rozeti -->
+    <a href="https://bolt.new" target="_blank" rel="noopener noreferrer"
+       style="
+         position: fixed;
+         top: 16px;
+         right: 16px;
+         width: 60px;
+         height: 60px;
+         z-index: 9999;
+       ">
+      <img src="https://raw.githubusercontent.com/kickiniteasy/bolt-hackathon-badge/main/bolt-badge-white-circle.svg"
+           alt="Built with Bolt" style="width: 100%; height: 100%;" />
+    </a>
 
   </body>
 </html>
